@@ -1,0 +1,2 @@
+public class uebung1 {
+}
