@@ -22,6 +22,5 @@ public class uebung1 {
         else {
             System.out.println("Large");
         }
-
     }
 }

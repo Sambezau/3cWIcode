@@ -28,6 +28,5 @@ public class uebung2 {
             System.out.println();
         }
 
-
     }
 }
