@@ -1,7 +1,16 @@
 package OO.remote;
 
 public class Battery {
-    private double state ;
+    private double state;
+
+    public Battery(double state) {
+        this.state = state;
+    }
+
+
+    public void getStatus() {
+        this.state = state;
+    }
 
     public double getState() {
         return state;
@@ -11,7 +20,5 @@ public class Battery {
         this.state = state;
     }
 
-    public Battery(double state) {
-        this.state = state;
-    }
+
 }
