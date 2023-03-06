@@ -16,7 +16,6 @@ public class Remote {
         return state;
     }
 
-
     public String TurnOn() {
 
         String on = "Verbraucher angeschlossen";
