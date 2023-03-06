@@ -13,6 +13,7 @@ public class Remote {
 
     public double getStatus() {
         double state = (B1.getState() + B2.getState()) / 2;
+        System.out.println("Batteriestatusmittelwert beträgt: ");
         return state;
     }
 
@@ -26,6 +27,7 @@ public class Remote {
 
         System.out.println("Der Batteriestand 1 ist bei " + newStatebattery1 + "Prozent");
         System.out.println("Der Batteriestand 2 ist bei " + newStatebattery2 + "Prozent");
+
         return on;
     }
 

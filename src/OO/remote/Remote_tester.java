@@ -9,6 +9,7 @@ public class Remote_tester {
        Remote Remote1 = new Remote(B1,B2);
         System.out.println(Remote1.TurnOn());
         System.out.println(Remote1.TurnOff());
+        System.out.println(Remote1.getStatus());
 
 
 
