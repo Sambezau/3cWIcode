@@ -24,60 +24,56 @@ public class Car {
 
     }
 
-    public String getColor() {
-        return Color;
-    }
+    //public String getColor() {
+        //return Color;
+    //}
 
-    public void setColor(String color) {
-        Color = color;
-    }
+    //public void setColor(String color) {
+    // Color = color;
+    //}
 
-    public double getMaxspeed() {
-        return Maxspeed;
-    }
+    //public double getMaxspeed() {
+    //return Maxspeed;
+    //}
 
-    public void setMaxspeed(double maxspeed) {
-        Maxspeed = maxspeed;
-    }
+    //public void setMaxspeed(double maxspeed) {
+    // Maxspeed = maxspeed;
+    //}
 
-    public double getBaseconsumtion() {
-        return Baseconsumtion;
-    }
+    //public double getBaseconsumtion() {
+    //  return Baseconsumtion;
+    //}
 
-    public void setBaseconsumtion(double baseconsumtion) {
-        Baseconsumtion = baseconsumtion;
-    }
+    //public void setBaseconsumtion(double baseconsumtion) {
+    //  Baseconsumtion = baseconsumtion;
+    //}
 
-    public String getManufacturer() {
-        return Manufacturer;
-    }
+    //public String getEngine() {
+    //  return Engine;
+    //}
 
-    public void setManufacturer(manufacturer) {
-        Manufacturer = manufacturer;
-    }
+    //public void setEngine(String engine) {
+    //  Engine = engine;
+    //}
 
-    public String getEngine() {
-        return Engine;
-    }
+    //public double getPrice() {
+    //  return Price;
+    //}
 
-    public void setEngine(String engine) {
-        Engine = engine;
-    }
 
-    public double getPrice() {
-        return Price;
-    }
 
-    public void setPrice(double price) {
-        Price = price;
-    }
-
-    public double getCarprice() {
-        return Carprice;
-    }
 
     public void setCarprice(double carprice) {
         Carprice = carprice;
+    }
+
+    public void Carprice(){
+        this.manufacturer.getSale();
+        double Carprice = manufacturer.Baseprice / 100 * manufacturer.Sale + manufacturer.Baseprice;
+    }
+    public double getCarprice(){
+        this.Carprice = Carprice;
+        return Carprice;
     }
 
 

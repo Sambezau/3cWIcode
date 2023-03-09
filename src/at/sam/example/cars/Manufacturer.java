@@ -38,9 +38,6 @@ public class Manufacturer {
     }
 
     public double Baseprice;
-
-
-
     public Manufacturer(String name, String country, double sale, double baseprice) {
         Name = name;
         Country = country;
