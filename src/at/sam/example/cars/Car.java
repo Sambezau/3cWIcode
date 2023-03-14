@@ -56,9 +56,9 @@ public class Car {
     //  Engine = engine;
     //}
 
-    //public double getPrice() {
-    //  return Price;
-    //}
+    public double getPrice() {
+      return Price;
+    }
 
 
 
